@@ -2,17 +2,7 @@
 
 This project is an advanced desktop application that predicts real estate prices in Istanbul using machine learning algorithms. It features a modern GUI interface developed with PyQt5 and comprehensive data analysis capabilities.
 
-## 🎯 Project Features
-
-- 🔮 **Smart Price Prediction**: Accurate price predictions using machine learning
-- 📊 **Comprehensive Data Analysis**: Extensive statistical analysis and visualizations
-- 🖥️ **Modern GUI**: User-friendly interface developed with PyQt5
-- 📈 **Multi-Chart Support**: Interactive charts with Matplotlib
-- 🗺️ **Regional Analysis**: Detailed analysis by districts and neighborhoods
-- 🎯 **Feature Importance Analysis**: Understanding which factors affect prices and how
-- 📋 **Comparative Analysis**: Compare your predictions with similar properties
-
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3.8+**
 - **PyQt5** - GUI Framework
@@ -21,7 +11,7 @@ This project is an advanced desktop application that predicts real estate prices
 - **Matplotlib & Seaborn** - Data Visualization
 - **NumPy** - Numerical Computations
 
-## 📦 Installation
+## Installation
 
 ### Requirements
 
@@ -53,7 +43,7 @@ pip install -r requirements.txt
    - Place `istanbul_konut2.xlsx` file in the project folder
    - Data format: ilce, mahalle, metrekare, oda_sayisi, yas, bulundugu_kat, fiyat
 
-## 🚀 Usage
+## Usage
 
 ### Running the Application
 
@@ -67,37 +57,37 @@ python app.py
 python model.py
 ```
 
-## 📱 Application Interface
+## Application Interface
 
 ### Main Features:
 
-#### 🔮 Price Prediction Tab
+#### Price Prediction Tab
 - Enter property features (square meters, room count, age, floor, location)
 - Try "Random Sample" for test data
 - Real-time price prediction with confidence intervals
 - Comparison charts with similar properties
 
-#### 🎯 Feature Importance
+#### Feature Importance
 - See which factors most influence prices
 - Category-based importance distribution
 - Top 15 most important features analysis
 
-#### 📈 Market Analysis
+#### Market Analysis
 - **Price Trends**: Price level distributions and per square meter analysis
 - **Regional Analysis**: District-based comparisons and volatility analysis
 - **Value Analysis**: ROI potential and luxury segment analysis
 
-#### 📊 Statistical Analysis
+#### Statistical Analysis
 - **Distribution Analysis**: Normal distribution tests and Q-Q plots
 - **Correlation Analysis**: Relationships between variables
 - **Outlier Detection**: Identification of anomalous values
 
-#### 📋 Data Analysis
+#### Data Analysis
 - Dataset summary information
 - District statistics
 - Detailed data visualizations
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 istanbul-konut-fiyat-tahmini/
@@ -119,10 +109,10 @@ istanbul-konut-fiyat-tahmini/
 │   ├── feature_importance.png
 │   └── ...
 │
-└── istanbul_konut2.xlsx # Dataset (added by user)
+└── istanbul_konut2.xlsx # Dataset
 ```
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 ### Algorithms Used:
 - **Ensemble Methods**: Random Forest, Gradient Boosting
@@ -139,55 +129,10 @@ istanbul-konut-fiyat-tahmini/
 - Feature selection and importance analysis
 - Data normalization and scaling
 
-## 📊 Dataset
-
 ### Data Characteristics:
-- **Record Count**: 50,000+ property data
+- **Record Count**: 20.000+ property data
 - **Time Range**: Current market data
 - **Geographic Coverage**: All districts of Istanbul
 - **Features**: Location, size, age, floor information
-
-### Data Sources:
-- Real estate portals
-- Official records
-- Market research
-
-## 🤝 Contributing
-
-1. Fork this repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Create Pull Request
-
-### Contribution Areas:
-- 🐛 Bug reports and fixes
-- ✨ New feature suggestions
-- 📖 Documentation improvements
-- 🎨 UI/UX enhancements
-- 🧮 Model performance optimizations
-
-## 📝 To-Do List
-
-- [ ] 🌐 Web interface development
-- [ ] 📱 Mobile application version
-- [ ] 🤖 Advanced ML algorithms (XGBoost, LightGBM)
-- [ ] 📊 Real-time data integration
-- [ ] 🗺️ Map visualizations
-- [ ] 💾 Database integration
-- [ ] 🔐 User authentication system
-- [ ] 📈 Trend prediction model
-
-## ⚠️ Important Notes
-
-- This project is for educational purposes and should not be used alone for real investment decisions
-- Price predictions may vary depending on market conditions
-- Keeping the dataset up-to-date is important for model performance
-
-## 📞 Contact
-
-**Project Owner**: Ömer Cem Ayla
-**GitHub**: [@omercemayla](https://github.com/omercemayla)  
-**Email**: omer_cem3@hotmail.com
 
 **Note**: For screenshots and detailed visuals, please check the `plots/` folder. 
