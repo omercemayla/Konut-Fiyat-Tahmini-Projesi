@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (büyük veri dosyaları)
+*.xlsx
+*.csv
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Models (büyük model dosyaları)
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# Virtual environment
+konut_env/
+
+# PyQt5
+*.ui
+
+# Windows
+Desktop.ini
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Geçici dosyalar
+temp/
+tmp/
+*.tmp 
